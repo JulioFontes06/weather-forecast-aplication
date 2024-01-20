@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url('https://img.freepik.com/fotos-premium/3-icone-do-tempo-fundo-azul_791167-8.jpg?w=740');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    margin-bottom: 10px;
+}
+
+.conteiner {
+    background-color: #003d61;
+    opacity: 0.75;
+
+    width: 90%;
+    max-width: 300px;
+
+    height: 95%;
+    max-height: 300px;
+
+    border-radius: 25px;
+}
+
+.city-input_btn{
+    display: flex;
+    width: 100%;
+}
+
+.city-input{
+    background-color: #012c46;
+    border: none;
+    outline: none;
+
+    width: calc(100% - 55px);
+    height: 30px;
+
+    padding: 10px;
+
+    border-radius: 20px;
+
+    margin: 20px;
+    
+}
+
+button{
+    background-color: #012c46;
+    border: none;
+    outline: none;
+
+    border-radius: 999px;
+    width: 70px;
+    height: 30px;
+
+    margin: 20px;
+}
+
+button img{
+    width: 20px;
+}
+
+.cityTemp{
+    display: flex;
+    margin: 10px 20px;
+}
+
+
+.city-name{
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.temp-info{
+    font-size: 1.3rem;
+    
+}
+
+.city-name + .temp-info{
+    margin-left: 8px;
+}
+
+
+.weather{
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    width: fit-content;
+    height: fit-content;
+}
+
+.weather-icon{
+    margin-left: 10px;
+    width: 40px;
+}
+
+.weather-text{
+    margin-left: 5px;
+}
+
+
+.porcent-humidity{
+    font-size: 1rem;
+    margin-left: 16px;
+}

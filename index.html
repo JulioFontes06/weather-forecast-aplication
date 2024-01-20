@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JulioFontes06 - Temp-Prevision</title>
+</head>
+
+<body>
+    <h1>Pevisão do tempo</h1>
+    <section class="conteiner">
+        <div class="city-input_btn">
+            <input id="city-input" type="text" class="city-input" placeholder="Digite o nome de cidade">
+            <button type="button" onclick="getCityName()"><img src="https://www.svgrepo.com/show/488200/find.svg" alt=""></button>
+        </div>
+        <div class="cityTemp">
+            <p class="city-name" id="city-name"></p>
+
+            <p class="temp-info" id="temp-info"></p>
+        </div>
+
+        <div class="weather">
+            <img id="weather-icon" class="weather-icon" src=""
+                >
+            <p class="weather-text" id="wheather-text"></p>
+        </div>
+        <p id="porcent-humidity" class="porcent-humidity"></p>
+    </section>
+</body>
+
+<script src="./script.js"></script>
+
+</html>
