@@ -4,7 +4,7 @@ let cityName = document.getElementById('city-input')
 
 function showInfo(dataApi) {
     console.log(dataApi)
-
+    
     document.getElementById('city-name').innerText = dataApi.name
     document.getElementById('temp-info').innerText = Math.floor (dataApi.main.temp) + '°C'
     document.getElementById('wheather-text').innerText = dataApi.weather[0].description
